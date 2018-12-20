@@ -1,0 +1,52 @@
+DevOpsNextGen-Java-MySql
+
+Project Name - DevOpsNextGen by DevOpsSchool.com
+Technology - Java, MySql
+Architecture of the DevOpsNextGen 
+	Webserver - Nginx
+	App Server - Tomcat
+	Database Server - MySql
+
+About Application - TBD
+
+Step 1 
+Create a one Java Based Application which has following properties
+	- Application should be written in Java
+	- Application frontend should be managed by Nginx
+	- Build process should be managed by Maven
+	- Application should be deployed using WAR file
+	- War file should be deployed in Tomcat
+Step 2
+	- Create a repository in Github.com and manage a versioning.
+Step 3 
+	- Make sure the Code Review should be done using SonarQube and no bug should be found during review.
+Step 4
+	- Make sure that enough Junit Test cases should be written	
+Step 5
+	- Setup a SonaType Nexus and deploy a war file into Artifactory
+Step 6 
+	- Write a Acceptance test cases using Selenum and keep it github in the same projects
+Step 7 
+	- Write a Ansible 3 Role with folliwing Specification
+	Role 1
+		Install Nginx in Linux/Windows
+		Start and Enable Nginx in Linux/Windows
+
+	Role 2 
+		Install Tomcat in Linux/Windows
+		Deploy a War file from SonaType Nexus Latest version
+		Start and Enable Tomcat in Linux/Windows
+	Role 3
+		- Install a Mysql database server in Linux/Windows
+		- Run mySql engine
+		- Create a database and load a schema
+	Role 4 
+		Start a Acceptance Testing & Post the Jacoco Coverage reports to Nexus or Git.
+
+Step 8 
+	- Setup a Jenkins Server
+	- Setup all Jobs as mentioned in Step
+	- Create a pipeline
+
+	
+
